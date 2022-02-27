@@ -1,0 +1,155 @@
+@media only screen and (min-width: 1440px){
+   p{
+       font-size: 1.6rem;
+   }
+}
+
+@media only screen and (max-width: 1140px){
+    h1 {
+        font-size: 3.2rem;
+        padding: 0rem 1rem;
+      }
+    h2{
+        font-size: 2.8rem;
+    }
+    h3{
+        font-size: 2.4rem;
+    }
+    #header-section .hero-img{
+        margin-left: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    html{
+        font-size: 56.25%;
+    }
+    section{
+        padding: 8rem;
+    }
+    .section-description{
+        padding: 0rem 15rem;
+    }
+    p{
+        padding: 1rem;
+    }
+    .box{
+        padding: 1rem;
+    }
+    #header-section{
+        height: 60vh;
+    }
+    .mobile-menu span{
+        display: block;
+      }
+   .main-nav{
+       display: none;
+   }
+   .client-photo{
+    width: 100%;
+    text-align: center;
+    }
+.client-photo img{
+    width: 10rem;
+    max-width: 100%;
+    }
+   .client-review{
+       width: 100%;
+       max-width: 100%;
+       padding: 0rem 2rem;
+       text-align: center;
+       margin-left: 0;
+    }
+   
+}
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 62.5%;
+    }
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2.4rem;
+    }
+    h3{
+        font-size: 2rem;
+    } 
+    h4{
+        margin: 0.5rem;
+    }
+    p{
+        padding: 1.6rem;
+    }
+    .section-description{
+        font-size: 1.7rem;
+        padding: 0 10rem;
+        margin: 3rem 0rem;
+    }
+  .span_1_of_4{
+      width: 49.2%;
+      max-width: 100%;
+  } 
+  .col:nth-child(3){
+      margin-left: 0;
+  }
+  .client-review p{
+      font-size: 1.6rem;
+  }
+  .card .card-img {
+    border-radius: 50%;
+    max-width: 90%;
+    height: auto;
+    padding: 3rem;
+    }
+    svg.radial-progress {
+        max-width: 16rem;
+    }
+    #testimonial-section .col:nth-child(3), #testimonial-section .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .contact-form {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+ 
+
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 2.6rem;
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+    h3{
+        font-size: 2rem;
+    } 
+    .section-description {
+        padding: 0 4rem;
+    }
+    #header-section .hero-img {
+        margin-left: 1rem;
+    }
+    #team-section{
+        padding: 6rem;
+    }
+    svg.radial-progress{
+        margin-top: 1.5rem;
+    }
+    .span_1_of_4{
+        width: 100%;
+        max-width: 100%;
+        padding: 0rem 2rem;
+    } 
+    .box .service-img {
+        height: 10rem;
+        display: block;
+        margin: 4rem auto;
+    }
+    .portfolio-filter button{
+        margin-top: 1rem;
+    }
+}
